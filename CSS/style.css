@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 10px 1px gray;
+    border-radius: 10px;
+}
+
+.userDetail h1 {
+    color: #1fbad6;
+}
+
+.userDetail img {
+    width: 6.5rem;
+}
+
+.userDetail input {
+    width: 70%;
+    height: .9rem;
+    border-radius: 7px;
+    padding: 8px;
+    border: none;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.userDetail button {
+    margin-left: 10px;
+    width: 5rem;
+    height: 2rem;
+    background-color: #2980b9;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.userDetail h4 {
+    color: rgba(104, 95, 95, 0.822);
+    font-size: 1.3rem;
+
+}
+
+.userDetail {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box hr {
+    width: 85%;
+}
+
+.category span {
+    display: inline-block;
+    height: 1.3rem;
+    width: 40%;
+    margin: 0px 0px 20px 30px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #def3f7;
+    border: 2px solid  #1fbad6;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    .category span:hover{
+        background-color: #2980b9;
+    }
+.category h1{
+    color: #1fbad6;
+    text-align: center;
+}
+#pipesAndCisternsBox{
+    display: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.answerButton{
+    height: 2.5rem;
+    width: 40%;
+    margin: 0px 0px 20px 30px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #def3f7;
+    border: 2px solid  #1fbad6;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.answerButton:hover:not([disabled]){
+    background-color: #2980b9;
+}
+.answerButton:disabled{
+    cursor: no-drop;
+}
+#secondsAndScore{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    height: 3rem;
+
+}
+#secondsAndScore :first-child{
+    display: inline-block;
+    height: 1.5rem;
+    padding: 5px;
+    border: 1px solid #1fbad6;
+    border-radius: 50%;
+    color: #2980b9;
+    font-size: 20px;
+}
+#questionsSection{
+    width: 90%;
+    margin-left: 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    position: relative;
+}
+#nextQuestionBtn{
+    background-color: #2980b9;
+    color: white;
+    height: 2rem;
+    width: 12rem;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    display: none;
+}
+
+#questionAttempt{
+    position: absolute;
+    top: -15px;
+    height: 1.5rem;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #2980b9;
+    font-size: 20px;
+
+}
+.correct{
+    background-color: #9aeabc;
+}
+.incorrect{
+    background-color: #ff9393;
+}
+
+
+#probabilityBox{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#problemOnAgesBox{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#profitAndLossBox{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.category a{
+    text-decoration: none;
+    color: black;
+}
+
+#showResult{
+    text-align: center;
+    display: none;
+    padding: 20px;
+}
+#showResult #resultHeading{
+    color: #2980b9;
+}
+.resultButton{
+    background-color: #2980b9;
+    color: white;
+    height: 2rem;
+    width: 12rem;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+

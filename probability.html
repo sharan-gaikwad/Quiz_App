@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="box" id="boxOnClickCategory">
+
+            <div id="probabilityBox">
+                <h2>Probability</h2>
+                <div id="secondsAndScore">
+                    <span class="timerSec">0</span>
+                    <span id="score">SCORE :0</span>
+                </div>
+                <div id="questionsSection">
+                    <span id="questionAttempt">0/10</span>
+                    <h2 id="queBox">This is the dummy Questions.</h2>
+                </div>
+                <div id="answerButtonDiv">
+                    <button class="answerButton">hello</button>
+                    <button class="answerButton">hii</button>
+                    <button class="answerButton">bye</button>
+                    <button class="answerButton">get lost</button>
+                </div>
+                <button onclick="nextQuestionBtn()" id="nextQuestionBtn">Next Question</button>
+
+            </div>
+
+            <div id="showResult">
+                <h1 id="resultHeading">Quiz Result</h1>
+                <p id="getName">your result is:</p>
+                <p id="totalQ">Total Question:10</p>
+                <p id="AttemptQ">Attempt:10</p>
+                <p id="correctA">Correct:</p>
+                <p id="wrongA">Wrong:</p>
+                <p id="percentageA">Percentage:</p>
+
+               <a href="index.html"> <button class="resultButton">Start Again</button> </a>
+               <a href="index.html"> <button class="resultButton">Go To Home</button></a>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+<script src="./JS/propablity.js"></script>
+
+</body>
+</html>
